@@ -1,0 +1,22 @@
+
+{
+	"name": "Node.js & TypeScript",
+	"build": {
+		"dockerfile": "Dockerfile",
+		
+		"args": { 
+			"VARIANT": "16-bullseye"
+		}
+	},
+
+	"settings": {},
+
+
+
+	"extensions": [
+		"dbaeumer.vscode-eslint"
+	],
+
+	
+	"remoteUser": "node"
+}
